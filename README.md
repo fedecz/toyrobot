@@ -5,11 +5,11 @@ To run tests: `go test -v ./...`
 
 ### Run
 
-The compiler outputs a binary `ToyRobot`, and there's a file called `commands.txt` in the same directory, that contains
+The compiler outputs a binary `toyrobot`, and there's a file called `commands.txt` in the same directory, that contains
 a list of moves. To run it, simply: 
 
 ```
-$ ./ToyRobot commands.txt
+$ ./toyrobot commands.txt
 2022/05/24 11:02:44 Executing PLACE command
 2022/05/24 11:02:44 Executing MOVE command
 2022/05/24 11:02:44 Executing MOVE command
